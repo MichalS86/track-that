@@ -1,1 +1,1 @@
-docker run --name track-that -e POSTGRES_PASSWORD=T0morr0w! -v //$(pwd)/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d -d postgres
+docker run --name track-that -e POSTGRES_PASSWORD=T0morr0w! -p 5432:5432 -v //$(pwd)/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d -d postgres
