@@ -14,3 +14,17 @@
 * User can create project
 * User can create task
 * User can assign another user to task
+
+# Requests
+
+## Task request
+
+Example request
+
+url: host/api/task (POST)
+body:
+```{
+    "name": "example task name",
+    "description": "example task description",
+    "creator_id": 1
+}```
