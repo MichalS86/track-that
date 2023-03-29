@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header class="main-bar">
+    <div class="logo">
+        <img src="placeholder.png" alt="logo" width="40" height="40">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="teams.html">Teams</a>
+    </div>
+    <button class="create-btn" id="create-btn">Create</button>
+</header>
+
+<!-- Add your projects page content here -->
+
+<div class="overlay" id="overlay"></div>
+<div class="popup" id="popup">
+    <form id="create-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type" required>
+        <button type="submit" class="create-btn">Create</button>
+    </form>
+</div>
+
+<script src="main.js"></script>
+<script src="projects.js"></script>
+</body>
+</html>
