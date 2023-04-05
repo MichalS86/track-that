@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects - Task That</title>
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header class="main-bar">
+        <div class="logo">
+          <img src="img/tmplogo.png" alt="logo" width="75" height="75">
+        </div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="teams.html">Teams</a>
+        </nav>
+        <div class="create-container">
+          <button class="create-btn" id="create-btn">Create</button>
+        </div>
+      </header>
+
+<!-- Add your projects page content here -->
+
+<div class="overlay" id="overlay"></div>
+<div class="popup" id="popup">
+    <form id="create-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type" required>
+        <button type="submit" class="create-btn">Create</button>
+    </form>
+</div>
+
+<script src="main.js"></script>
+<script src="projects.js"></script>
+</body>
+</html>
